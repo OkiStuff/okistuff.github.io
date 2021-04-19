@@ -1,126 +1,48 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>epic boi</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="canonical" href="https://html5-templates.com/" />
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Windows Template</title>
+</head>
+<body>
+	<div id="desktop">
+		<div class="window" data-title="First">
+			Window content
+		</div>
+		<div class="window" data-title="Second">
+			Second Window
+		</div>
+		<div class="window closed" data-title="Third">
+			Third window starts closed
+		</div>
+		<div class="window" data-title="Welcome">
+			<h1>Free Windows Template</h1>
+			<p>Minimize the windows to the taskbar, make them full screen or close them.</p>
+			<p>Drag the title bar to move the windows or resize them from the bottom right corner.</p>
+			<hr />
+			<p><strong>You can download and edit this template freely as long as you leave a visible link to HTML5-Templates.com</strong></p>
+		</div>
+		
+		<div id="taskbar">		
+		</div>
+		
+		<div id="icons">
+			<a class="openWindow" data-id="0">Open first</a>
+			<a class="openWindow" data-id="1">Open second</a>
+			<a class="openWindow" data-id="2">Open third</a>
+			<a class="openWindow" data-id="3">Welcome screen</a>
+		</div>
+		<a href="https://html5-templates.com/" rel="nofollow" target="_blank" id="templateLink">&copy; HTML5-Templates.com</a>	
+		<!-- You can use this template freely if you leave a visible link to HTML5-Templates.com -->
+	</div>
+</body>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
-
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#tools" class="icon solid fa-tools"><span>Tools</span></a>
-						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
-						<a href="https://github.com/OkiStuff" class="icon brands fa-github"><span>Github</span></a>
-						<a href="#" onclick="alert('nope');"class="icon brands fa-twitter"><span>Twitter</span></a>
-						<!--<a href="https://twitter.com/notokistuff" class="icon brands fa-twitter"><span>Twitter</span></a>-->
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>epic boi/okistuff</h1>
-									<p>13 Year old Programmer. also started coding when i was 6 so thats like 6+ years</p>
-								</header>
-								<a href="#tools" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my Tools</span></span>
-									<img src="https://cdn.discordapp.com/avatars/245582927939764226/e0783d5b36d478cb8934da00567bd791.png?size=128" alt="" />
-								</a>
-							</article>
-
-						<!-- Work -->
-							<article id="tools" class="panel">
-								<header>
-									<h2>Tools</h2>
-								</header>
-								<p>
-									git/github, webdev (html, css js/ts), Flask, Python, .NET, Monogame (Game Engine/Game Dev), Jetbrains Rider (C# Dev), code editors that dont matter (vs code)
-								</p>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdab1nmslvvntp.cloudfront.net%2Fwp-content%2Fuploads%2F2016%2F03%2F1458791372git.png&f=1&nofb=1" alt="git"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.afterdawn.fi%2Fv3%2Fnews%2Foriginal%2Fgithub-logo.png&f=1&nofb=1" alt="github"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdobsondev.com%2Fwp-content%2Fuploads%2F2017%2F05%2Fhtml-featured-image.jpg&f=1&nofb=1" alt="webdev"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://duckduckgo.com/i/64a17fe4.png" alt="flask"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://duckduckgo.com/i/a61af354.png" alt="python"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://duckduckgo.com/i/a707f012.png" alt="c#"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.windowsreport.com%2Fwp-content%2Fuploads%2F2013%2F06%2Fdownload-.NET-Framework-windows-10.png&f=1&nofb=1" alt=".NET"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgonintendo.com%2Fsystem%2Ffile_uploads%2Fuploads%2F000%2F038%2F499%2Foriginal%2FMonoGame_Logo.svg.png&f=1&nofb=1" alt="monogame"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetintopc.com%2Fwp-content%2Fuploads%2F2018%2F05%2FJetBrains-Rider-2018-Free-Download.jpg&f=1&nofb=1" alt="Rider"></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9a%2FVisual_Studio_Code_1.35_icon.svg%2F1200px-Visual_Studio_Code_1.35_icon.svg.png&f=1&nofb=1" alt="vs code"></a>
-										</div>
-									</div>
-								</section>
-							</article>
-
-						<!--Projects-->
-							<article id="projects" class="panel">
-								<div class="viewGithub">
-									<a href="https://github.com/OkiStuff" class="icon brands fa-github"><span> View All my Repos</span></a>
-									<li></li>
-									<a href="https://okistuff.github.io/ShapesRB/" class="icon brands fa-chrome"><span> ShapesRB</span></a> <br />
-									<a href="https://github.com/OkiStuff/ConsoleGL" class="icon solid fa-laptop-code"><span> ConsoleGL</span></a> <br />
-									<a href="https://github.com/OkiStuff/PassMang" class="icon brands fa-python"><span> PassMang</span></a> <br />
-									<a href="https://github.com/sand-lang/sand" class="icon solid fa-laptop-code"><span> Sand Programming Language</span></a> <br />
-									<a href="https://github.com/OkiStuff/Guess-The-Number" class="icon brands fa-python"><span> Guess the Number (Python)</span></a> <br />
-									<a href="https://github.com/OkiStuff/TypingGame" class="icon brands fa-js"><span> Typing Game (Repo)</span></a> <br />
-									<a href="https://vigilant-hermann-b9dfb7.netlify.app/" class="icon brands fa-chrome"><span> Typing Game (Wesbite)</span></a> <br />
-									<a href="https://github.com/OkiStuff/AddLang" class="icon brands fa-python"><span> AddLang</span></a> <br />
-									<a href="https://github.com/OkiStuff/T-RexMono" class="icon solid fa-laptop"><span> T-Rex Monogame</span></a> <br />
-									<a href="https://github.com/OkiStuff/Wave-Launcher-For-Sand" class="icon brands fa-python"><span> WLS (Wave Launcher for Sand)</span></a> <br />
-									im adding more later
-								</div>
-							</article>
-
-						
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; Okistuff</li><li>Wesbite Design kinda by ( i edited some of it myself ): <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
