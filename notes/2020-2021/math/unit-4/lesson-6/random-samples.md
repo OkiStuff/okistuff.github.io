@@ -59,3 +59,10 @@ Store C
 times 20 both sides
 
 7/25 = x/500            140 ww bagels will be sold
+
+![Notes](https://raw.githubusercontent.com/OkiStuff/okistuff.github.io/master/notes/2020-2021/math/unit-4/lesson-6/resources/random-samples.PNG)
+
+**Tshirts**
+---
+
+Population -
