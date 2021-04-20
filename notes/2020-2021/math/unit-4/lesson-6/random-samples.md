@@ -28,3 +28,34 @@ Tiger Won
 
 # Set #5
 6, 23, 26, 38, 44, 50, 52, 53, 56, 61, 81, 108, 110, 134, 166, 169, 173, 179, 189, 200
+
+
+
+---
+---
+---
+
+# Comeback
+
+## Using Random Sample to Make Inferences
+
+Store A
+---
+
+times 10 both sides
+
+10/50 = x/500        About 100 whole wheat bagels will be sold.
+
+Store B
+---
+
+times 5 both sides
+
+23/100 = x/500          About 115 whole wheat bagels will be sold.
+
+Store C
+---
+
+times 20 both sides
+
+7/25 = x/500            140 ww bagels will be sold
