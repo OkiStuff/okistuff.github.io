@@ -69,9 +69,14 @@ Population - 1000 Tshirts
 Sample - 20 Tshirts
 Sample Below Standard - 2 Tshirts
 
+![More Notes](https://raw.githubusercontent.com/OkiStuff/okistuff.github.io/master/notes/2020-2021/math/unit-4/lesson-6/resources/random-samples-tshirts.PNG)
 
+
+Homework Tips
 --------------------------------------------------------------
 
  - 1. 2 numbers
  - 2. Find the average between the 3 numbers, round to the nearest whole number
  - 3. A. Find the percent based on the sample  B. Predict the regrets based on the sample
+
+![Homework Tips](https://raw.githubusercontent.com/OkiStuff/okistuff.github.io/master/notes/2020-2021/math/unit-4/lesson-6/resources/homework-tips.PNG)
