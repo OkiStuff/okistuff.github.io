@@ -10,6 +10,8 @@ A compound event consists of two or more simple events..
 # Theroretical Probability of Compound Event
 ---
 
+
+
 Jacob rolls two number cubes. Find the probability that the sum of the numbers he rolls is 8.
 
 Use a table to show the sample space
